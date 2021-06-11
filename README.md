@@ -5,7 +5,7 @@ A super quick &amp; dirty node script to help Jayesh list out the links and butt
 ## Get started
 
 ```js
-git clone 
+git clone git@github.com:EvilJimJafar/get-links-and-buttons-for-testing.git
 cd get-links-and-buttons-for-testing
 npm install
 node index.js
