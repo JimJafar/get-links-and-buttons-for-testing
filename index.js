@@ -28,8 +28,8 @@ const run = async () => {
       console.log('\n\n...\n\n')
       
       // links
-      console.log(`Links found at ${url}:`, '\n- - - - - - - - - - - -\n')
       const links = dom.window.document.querySelectorAll('a')
+      console.log(`Links found at ${url}:`, '\n- - - - - - - - - - - -\n')
       links.forEach(link => console.log(`Label: ${link.innerHTML}, ID: ${link.id}, class: ${link.className}\n`))
 }
 
